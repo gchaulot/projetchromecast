@@ -1,0 +1,53 @@
+.diaporama{
+	position:relative;
+	width:512px;
+	height:288px
+}
+
+img{
+	height: 80%;
+    width: 80%;
+}
+
+.diaporama li{
+	list-style-type:none;
+	overflow:hidden;
+	position:absolute
+}
+
+.diaporama_controls{
+	width:512px;
+	margin:3px 0;
+	padding:5px;
+	clear:both;
+	overflow:hidden;
+}
+
+.diaporama_controls .btns{
+	float:right;
+}
+
+.diaporama_controls a{
+	font-weight:normal;
+	width:10px;
+	height:13px;
+	text-indent:-9999px;
+	display:inline-block;
+	margin:0 3px;
+}
+
+.diaporama_controls .prev{
+	background:url(img/fleches_diapo.png) no-repeat top right;
+}
+
+.diaporama_controls .next{
+	background:url(img/fleches_diapo.png) no-repeat top left;
+}
+
+.diaporama_controls .pause{
+	background:url(img/fleches_diapo.png) no-repeat bottom right;
+}
+
+.diaporama_controls .play{
+	background:url(img/fleches_diapo.png) no-repeat bottom left;
+}
